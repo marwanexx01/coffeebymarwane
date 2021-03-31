@@ -87,11 +87,8 @@ anime({
 });
 anime({
     targets: '.footer-area   ',
-    translateY: [250, 0],
-    easing: 'easeOutExpo',
-    duration: 1500,
-    delay: 900,
-
+    duration: 4000,
+    delay: 1000,
     opacity: [0, 1],
 
 
