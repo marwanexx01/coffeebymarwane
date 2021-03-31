@@ -1,0 +1,420 @@
+* {
+    margin: auto;
+    padding: 0;
+    background-color: #111016;
+    color: white;
+    box-sizing: border-box;
+}
+
+li {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.navigation-bar {
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+}
+
+.navlogo {
+    width: 20%;
+    float: left;
+}
+
+.navlogo img {
+    margin-top: 24px;
+}
+
+.navlinks {
+    width: 80%;
+    float: right;
+}
+
+.navlinks ul {
+    list-style: none;
+    float: right;
+}
+
+.arrow-down {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate( 45deg);
+    -webkit-transform: rotate( 45deg);
+    /* margin-right: -1px; */
+    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+.navlinks ul li {
+    display: inline-flex;
+    margin: 45px 40px 0px 0px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.navlinks ul li:first-child a {
+    color: #5b2934;
+}
+
+.navlinks ul li:last-child a {
+    border: 1px solid silver;
+    border-radius: 17px;
+    width: 113px;
+    height: 34px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+
+/* start of content */
+
+.content-area {
+    width: 100%;
+    margin-top: -38px;
+    height: 585px;
+}
+
+.textarea {
+    width: 28%;
+    float: left;
+    margin: 40px 10px 0px 0px;
+    position: relative;
+}
+
+.colorselector {
+    width: 18%;
+    float: left;
+    margin: 95px 10px 0px 0px;
+}
+
+.imagearea {
+    width: 48%;
+    float: right;
+    margin: 40px 10px 0px 0px;
+}
+
+.textarea h1 {
+    font-family: serif;
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 68px;
+}
+
+.textarea img {
+    width: 60px;
+    position: absolute;
+    top: 73%;
+}
+
+.textarea p {
+    line-height: 25px;
+    letter-spacing: 5px;
+    color: #833b51;
+    font-weight: 600;
+}
+
+.textarea hr {
+    background: linear-gradient(to right, #303136, #27282c, #1e1f23, #16161a, #0b0a10);
+    height: 12px;
+    border-color: transparent;
+    border-radius: 25px;
+    width: 69px;
+    /* outline: none; */
+    position: absolute;
+    top: 109%;
+}
+
+.textareaul {
+    position: absolute;
+    top: 120%;
+    width: 435px;
+}
+
+.textareaul ul {
+    list-style: none;
+}
+
+.textareaul ul li {
+    float: left;
+    margin-right: 65px;
+    font-weight: 600;
+    margin-top: -12px;
+}
+
+.textareaul ul li:nth-child(1) {
+    border: 1px solid transparent;
+    background-color: #7c394a;
+    width: 143px;
+    height: 38px;
+    text-align: center;
+    padding-bottom: -52px;
+    padding-top: 9px;
+    border-radius: 16px;
+    /* margin-bottom: -17px; */
+    margin-top: -10px;
+}
+
+.far {
+    vertical-align: middle;
+    font-size: 42px;
+    width: 52px;
+}
+
+.textareaul a {
+    margin-top: 10px;
+}
+
+.circle {
+    background-color: #fff;
+    border: 1px solid transparent;
+    height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px;
+}
+
+.colorselector ul {
+    list-style: none;
+}
+
+.colorselector ul li {
+    margin-bottom: 20px;
+}
+
+.circle:nth-child(1) {
+    background-color: #582a34;
+}
+
+.circle:nth-child(2) {
+    background-color: #b897a0;
+}
+
+.circle:nth-child(3) {
+    background-color: #dbe0e4;
+}
+
+.imagearea img {
+    width: 664px;
+    margin-top: 105px;
+}
+
+
+/* start top footer */
+
+.top-area {
+    height: 138px;
+}
+
+.first {
+    width: 22%;
+    float: left;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.first ul {
+    list-style: none;
+}
+
+.fas {
+    font-size: 33px;
+}
+
+.ul1 ul li {
+    display: inline;
+    margin-right: 26px;
+}
+
+.ul2 ul li {
+    display: inline;
+    margin-right: 26px;
+}
+
+.ul2 ul {
+    margin-top: 18px;
+}
+
+.seconde {
+    width: 23%;
+    float: left;
+    margin: 10px;
+}
+
+.seconde h3 {
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.seconde p {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.third {
+    width: 27%;
+    float: left;
+    margin: 10px;
+}
+
+.third ul {
+    list-style: none;
+}
+
+.third ul li {
+    float: left;
+    margin: 10px;
+}
+
+.fourth {
+    width: 20%;
+    float: left;
+    margin: 10px;
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+.footer p {
+    font-family: monospace;
+    font-weight: 900;
+}
+
+
+/* start */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* start */
